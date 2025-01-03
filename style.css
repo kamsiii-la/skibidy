@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+.container{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+	display: block;
+	color: black;
+	width: 80%;
+	max-width: 500px;
+}
+
+.quote{
+	line-height: 1px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.shesh{
+	color: gray;
+}
+
+.button-sigma{
+	margin: 0 auto;
+	justify-content: center;
+	gap:10px;
+	display: flex;
+}
+
+.button-sigma button{
+	border:none;
+	padding: 10px;
+	width: 150px;
+	transition: .5s;
+	font-weight: 500;
+}
+
+.button-sigma button:hover{
+	color: white;
+	background-color:#273036;
+}
+
+.navbar {
+    background-color: #273036 ; 
+}
+
+.navbar .nav-link, .navbar-brand {
+    color: white !important; 
+}
+
+.navbar .nav-link:hover {
+    color: lightgray !important; 
+}
+
+.wave-background {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; 
+}
+
+.navbar-toggler-icon{
+	background-color: white;
+}

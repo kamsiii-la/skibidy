@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	text-align: center;
+	justify-content: center;
+	font-family: Arial;
+}
+
+.dice_box{
+	margin-top: 15px;
+	background-color: #273036;
+	color: white;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 300px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.rollBtn{
+	padding: 15px 20px;
+	background-color: #273036;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 15px;
+	transition: .5s;
+	border: none;
+}
+
+.rollBtn:hover{
+	background-color: lightgray;
+	color: black;
+	border: none;
+	border-radius: 15px;
+}
+
+.container_input input{
+	text-align: center;
+	padding: 10px 15px;
+	font-size: 17px;
+	width: 200px;
+	outline: none;
+}
+
+@media (max-width: 600px) {
+    .dice_box {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .rollBtn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .container_input input {
+        width: 90%;
+        max-width: 250px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .dice_box {
+        padding: 20px;
+    }
+
+    .rollBtn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .container_input input {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,166 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+}
+
+.container{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	flex-direction: row;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	width: 100vh;
+	border: 1px solid #273036;
+	border-radius: 10px;
+}
+
+.user-input{
+  	box-sizing: border-box;
+  	width: 50%;
+  	padding: 20px;
+  	flex-direction: column;
+  	display: flex;
+}
+
+h2, p{
+	margin: 0;
+	text-align: center;
+}
+
+
+
+input, label {
+	display: block;
+	width: 100%; 
+	padding: 15px 7px 15px 7px;
+	outline: none;
+	border: none;
+	font-size: 15px;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 0px 1px;
+}
+
+.email-input-user-container,
+.password-input-container{
+	justify-content: center;
+	display: block;
+  	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+h2{
+	margin-top: 5rem;
+}
+
+p{
+	margin-top: 5px;
+	color: gray;
+	margin-bottom: 1rem;
+}
+
+.btn{
+	text-align: center;
+	width: 100%;
+}
+
+.btn button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	width: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid #273036;
+	transition: .3s;
+}
+
+.btn button:hover{
+	background-color: #273036;
+	color: white;
+}
+
+.image-background-right{
+	flex-grow: 1;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	cursor: pointer;
+}
+
+#skibidy-pic{
+	display: none;
+}
+
+.image-background-right img {
+	  max-width: 100%; 
+	  height: auto;
+}
+
+.image-background-right:hover #skibidy-pic{
+	display: inline-block;
+	transition: .5s;
+	justify-content: center;
+	margin-left: 4rem;
+}
+
+.image-background-right:hover #sigma-pic{
+	display: none;
+	transition: .5s;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%; 
+    height: auto; 
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  .user-input {
+    width: 100%; 
+    border-right: none;
+    padding: 20px;
+    height: auto;
+  }
+
+  .image-background-right {
+    width: 100%; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin: 0 auto;
+  }
+
+  .btn button {
+    padding: 12px; 
+  }
+
+  input, label {
+    font-size: 14px; 
+  }
+
+  .user-input h2 {
+    font-size: 24px;
+  }
+
+  .user-input p {
+    font-size: 14px; 
+  }
+}
